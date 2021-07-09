@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import FileSaver from 'file-saver'
 import './App.css';
 
-const BASE_URL = 'http://localhost:3001'
+const BASE_URL = 'https://hr-template-backend.herokuapp.com'
 function App() {
   const [employeelist, setEmployeeList] = useState(null)
   const [offerTemplate, setOfferTemplate] = useState(null)
