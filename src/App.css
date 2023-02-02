@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin-left: 13%;
+  margin-top: 10%;
+  border: 1px solid black;
+  width: 70%;
+  height: calc(100% - 100px);
+  overflow-y: scroll;
+ 
+}
+.wrapper{
+    display: flex;
+    margin:20px;
+    justify-content: space-around;
+}
+button{
+  margin:auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 100px;
+  height: 35px;
+}
+h4{
+  text-align: start;
+}
+.loading{
+  margin-left: 30%;
+}
+.anchor{
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.docList{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.docs{
+  margin: 8px;
+  color: blue;
+  text-decoration: underline;
+}
+.conditions{
+  text-align: start;
+  margin-left: 15%;
+    margin-top: 2%;
+}
